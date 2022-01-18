@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="stylesheet" href="./index1.css">
+    <script src="https://kit.fontawesome.com/3d49ef96c0.js" crossorigin="anonymous"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+    <title>Cabinet RAHBANI</title>
+  </head>
+  <body>
+    <!-- j'attende le compante de saalma  de nav_bar -->
+    <div class="nav-bar">
+      <img src="logo.png" class="logo">
+      
+      
+      <ul class="menu">
+          
+          <li class="active" id="hh"><a href="#home">Home</a></li>
+          <li id="hh"><a href="#about">About</a></li>
+          <li id="hh"><a href="#review">Review</a></li>
+          <li id="hh"><a href="#contact">Contact</a></li>
+          <li>  <a href="index1.html">  <button class="nn" type="button">Home</button></a></li>
+      </ul>
+     
+  
+     
+     
+    
+        
+        
+    </div>
+   
+    <!-- cet la parties body de page admin  -->
+    <main>
+      <div class="rect_de_admin">
+        <div class="partie_gauche">
+          <img src="profil_login 1.png" alt="" id="profil_login" />
+        </div>
+        <div class="partie_daroite">
+          <form action="">
+            <h1 id="title">Welcome</h1> 
+            <div class="input">
+              <div class="donner">
+                <i class="bx bx-user"></i>
+                <input type="text" class="do" placeholder="Full name" required />
+              </div>
+              <div class="donner">
+                <i class="bx bx-lock-alt"></i>
+                <input
+                  type="password"
+                  class="do"
+                  name=""
+                  placeholder="Password"
+                  value="" required
+                />
+              </div>
+            </div>
+            <div class="choisi-type">
+              <div class="type_code">DOCTOR</div>
+              <div class="type_cod">NURSE</div>
+            </div>
+            <div class="buttonv">
+              <div>
+               <a href="index1.html"> <button class="cancel"</button>BACK</a>
+              </div>
+              <div>
+                <button class="enregistrer">LOGIN</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main> 
+  
+  <!-- this is component for the footre  -->
+    <script src="admin.js"></script>
+    <script src="component_nav-bar_desktop.js"></script>
+     <resume-app></resume-app>
+     <script src="footre_desktop.js"></script>
+    
+     
+       <script>
+        const menuu = document.querySelector(".menu-toggle");
+          const nav = document.querySelector(".nav-bar2");
+          const handleClick= function(){
+          nav.classList.toggle("nav-bar2-open")
+         }
+menuu.addEventListener("click", handleClick)
+nav.addEventListener("click", handleClick)
+    </script>
+          
+
+  </body>
+</html>

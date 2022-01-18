@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="Profil.css" />
+    <script src="https://kit.fontawesome.com/3d49ef96c0.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cabinet RAHBANI</title>
+  </head>
+  <body  class="hhh">
+    <header>
+      <!-- nav_bar de lhssan isi  -->
+      <div class="ll">
+      <img src="logo.png" class="llogo" alt="">
+    </div>
+    <div class="rabh">
+      <img src="DOCTEUR_rabhani.png" class="rabhani" alt=""></div>
+   
+        <a href="index1.html">  <button class="nn" type="button">Home</button></a>
+        
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </header>
+   
+    <div class="allb2">
+       <ul>
+           <li><a href="page-doctor.html">YOUR NURSE</a></li>
+           <li><a href="Patient.html">YOUR PATIENTS</a></li>
+           <li><a href="index1.html">  <button class="kk" type="button">Home</button></a></li>
+       </ul>
+       <div class="menu-toggle2"><i class="fas fa-times"></i></div>
+      
+    </div>
+    
+
+    <div class="allb">
+         <a href="page-doctor.html"></a><button class="NURSE" type="button">YOUR NURSE</button></a>
+        <a href="Patient.html"><button class="PATIENT" type="button">YOUR PATIENTS</button></a>
+       <a href="profil.html"> <button class="PROFIL">PROFIL</button></a>
+    </div>
+    <div class="hed">
+
+    </div>
+    <main>
+      <div class="Ensemble">
+        <div class="LEFT">
+          <input
+            type="email"
+            class="nom_et_prenom"
+            value="A.STAILI.studient@youcode.com"
+            readonly
+          />
+          <input type="text" class="nom_et_prenom" value="RAHBANI " readonly />
+          <input
+            type="text"
+            class="nom_et_prenom"
+            value="+212 689089903"
+            readonly
+          />
+          <input
+            type="text"
+            class="nom_et_prenom"
+            value="18/09/2003"
+            readonly
+          />
+          <input type="text" class="nom_et_prenom" value="DOCTEUR " readonly />
+        </div>
+        <div class="REIGHT">
+          <button class="buut">BACK</button>
+          <button class="buut">CONFIRM</button>
+        </div>
+      </div>
+    </main>
+    <!-- this is component for the footre  -->
+    
+    <resume-app></resume-app>
+    <script src="footre_desktop.js"></script>
+    <script>
+        const menuu = document.querySelector(".menu-toggle");
+          const nav = document.querySelector(".allb2");
+          const handleClick= function(){
+          nav.classList.toggle("allb2-open")
+         }
+menuu.addEventListener("click", handleClick)
+nav.addEventListener("click", handleClick)
+    </script>
+  </body>
+</html>
