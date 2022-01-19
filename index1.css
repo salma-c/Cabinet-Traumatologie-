@@ -383,7 +383,7 @@ footer {
         justify-content: space-around;
   }
   
-  footer .zbla {
+  footer .bano {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -425,7 +425,7 @@ footer {
     font-style: initial;
   }
   
-  .khruya {
+  .banner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -720,7 +720,7 @@ footer {
         justify-content: space-around;
         padding-top: 10%;
   }
-footer .zbla {
+footer .bano {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -770,7 +770,7 @@ margin-bottom: 10%;
 position: absolute;
 
 }
-.khurya {
+.banner {
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
